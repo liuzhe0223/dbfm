@@ -13,7 +13,7 @@ install, 在树莓派上操作
 克隆代码
 
 ```
-git clone
+git clone https://github.com/liuzhe0223/douban_fm_pi.git
 ```
 
 
@@ -26,7 +26,7 @@ sudo  apt-get install redis-server
 安装相关python模块
 
 ```
-sudo pip install redis
+sudo pip install -r requirements.txt
 ```
 
 config
