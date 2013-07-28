@@ -17,7 +17,7 @@ git clone https://github.com/liuzhe0223/douban_fm_pi.git
 ```
 
 
-ubuntu下安装redis数据库
+下安装redis数据库
 
 ```
 sudo  apt-get install redis-server
