@@ -38,9 +38,8 @@ class DoubanFM:
         for song in j['song']:
             song_list.append(song['url'])
 
-        print song_list
-
-        self.r.set('song_list',song_list)
+        for song_url in song_list:
+            self.r.rpush('song_list', song_url)
 
 
 
